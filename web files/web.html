@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="author" content="SAMIR NIMGADE">
+            <meta name="title" content="Keymonache.com">
+            <meta name="discription" content="self experience">
+            <meta name="Keywords" content="keymon,keymonache,keymonache.com">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body{
+    background-color: black;
+}
+.keym{
+    position: absolute;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+    margin-left: 350px;
+    font-size: 170px;
+    cursor: pointer;
+    justify-content: space-between;   
+     
+}
+.keym:hover{
+    transition-duration: 1s;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.keym:active{
+    border: 2px solid #04aa6d;
+}
+.bars{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 15rem;
+    width: 15rem;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 900px;
+}
+.bars .bar{
+    height: 50px;
+    background: white;
+    margin: 6px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+}
+.bars:hover .up{
+    transform: rotate(45deg);
+}
+.bars:hover .mid{
+    opacity: 0;
+}
+.bars:hover .down{
+    transform: rotate(-45deg);
+}
+
+		</style>
+            <title>www.heykeymonache.com</title>
+        </head>
+        <body>
+            <h1 class="keym">DONE</h1>
+            <div class="bars">
+                <div class="bar up"></div>
+                <div class="bar mid"></div>
+                <div class="bar down"></div>
+            </div>
+           
+        </body>
+    </html>

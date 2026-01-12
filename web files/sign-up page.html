@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+     <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="author" content="SAMIR NIMGADE">
+            <meta name="title" content="Keymonache.com">
+            <meta name="discription" content="self experience">
+            <meta name="Keywords" content="keymon,keymonache,keymonache.com">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body{
+    background-color: black;
+}
+.main{
+    height: 800px;
+}
+.su{
+    font-size: 80px;
+    position: absolute;
+    color: red;
+    margin-top: 100px;
+    margin-left: 350px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.bars{
+    justify-content: space-between;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 900px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 5rem;
+    width: 5rem;
+}
+.bars .bar{
+    height: 10px;
+    background: white;
+    margin: 6px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+}
+.bars:hover .up{
+    transform: rotate(45deg);
+}
+.bars:hover .mid{
+    opacity: 0;
+}
+.bars:hover .down{
+    transform: rotate(-45deg);
+}
+p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.forms{
+    height:50px;
+    width: 200px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 100px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: column wrap;
+}
+::placeholder{
+    color: cornflowerblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.forms .name{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid rgb(136, 9, 255) ;
+    color: rgb(142, 4, 197);
+
+}
+.mail{
+    height:50px;
+    width: 200px;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 100px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: column wrap;
+ 
+
+}
+.mail .name{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid rgb(136, 9, 255) ;
+    color:rgb(142, 4, 197);
+}
+.address{
+    height:50px;
+    width: 200px;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 100px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: column wrap;
+}
+.address .name{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid rgb(136, 9, 255) ;
+    color: rgb(142, 4, 197);
+}
+.ent{
+    background-color: transparent;
+    height: 135px;
+    width: 400px;
+    border-radius: 30px;
+    border: 3px solid aqua;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 700px;    
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: rgb(243, 4, 4);
+    font-size: 100px;
+    align-items: center;
+}
+.ent:hover{
+    background-image: url('https://i.ibb.co/DrPgyFr/BUT.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    transition-duration: 1.5s;
+    margin-top: 329px;
+    margin-left: 699px;
+}
+.foot{
+    position: absolute;
+    justify-content: space-between;
+    display: inline-block;
+    flex-flow: column wrap;
+    margin-top: 600px;
+    margin-left: 100px;
+    padding: 5px 5px 5px 5px;
+    
+
+}
+a{
+    color: rgb(233, 5, 5);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+		</style>
+
+            <title>www.keymonache.com</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        </head>
+        <body>
+         <div class="main">
+            <h1 class="su">SIGN UP</h1>
+            <p class="para">#SIGN UP THIS PAGE IF YOU ARE A NEW USER#<p>
+            <div class="but"><a href="web.html" class="ent">SIGN UP</a></div>
+            <div class="bars">
+                <div class="bar up"></div>
+                <div class="bar mid"></div>
+                <div class="bar down"></div>
+            </div>
+           <form>
+            <div class="forms">
+                <input type="text" class="name f" placeholder="First Name">
+                <input type="text" class="name m" placeholder="Middle Name">
+                <input type="text" class="name l" placeholder="Last Name">
+            </div>
+            <div class="mail">
+                <input type="text" class="name g" placeholder="Grade">
+                <input type="text" class="name d" placeholder="DOB">
+                <input type="text" class="name ma" placeholder="Your email">
+            </div>
+            <div class="address">
+                <input type="text" class="name c" placeholder="Curr. Address">
+                <input type="text" class="name p" placeholder="Perm. Address">
+            </div>
+           </form>
+           <footer>
+                <h1 class="thx">thanking you!</h1>
+                <div class="foot">
+                    <a href="C:\Users\Student\OneDrive\@WHITE ANGEL!\@WEB&FILE$\index.html"> About </a>
+                    <a href="C:\Users\Student\OneDrive\@WHITE ANGEL!\@WEB&FILE$\index.html"> Contact </a>
+                    <a href="C:\Users\Student\OneDrive\@WHITE ANGEL!\@WEB&FILE$\index.html"> Team </a>
+                    <a href="C:\Users\Student\OneDrive\@WHITE ANGEL!\@WEB&FILE$\index.html"> Address </a>
+                    <a href="C:\Users\Student\OneDrive\@WHITE ANGEL!\@WEB&FILE$\index.html"> Designation </a>
+                </div>
+           </footer>
+         </div>
+        </body>
+    </html>

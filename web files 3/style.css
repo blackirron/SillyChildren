@@ -1,0 +1,163 @@
+body{
+    background-color: powderblue;
+}
+
+.shoe{
+      fill-opacity: 0;
+      stroke: #7a00ff;
+      stroke-width: 5px;
+      animation: shoe 5s ease-in-out;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 2000;
+      padding: 20px;}
+       @keyframes shoe{
+            0%{
+                stroke-dashoffset: 2000;
+            
+            }
+            100%{
+                stroke-dashoffset: 0;
+            
+            }
+        }
+
+       
+.bottle{
+    fill-opacity: 0;
+      stroke: blue;
+      stroke-width: 5px;
+      animation: bottle 5s ease-in-out;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 1500;
+      padding: 20px;}
+       @keyframes bottle{
+            0%{
+                stroke-dashoffset: 1500;
+            
+            }
+            100%{
+                stroke-dashoffset: 0;
+            
+            }
+        }   
+ 
+.boxing{
+    fill-opacity: 0;
+      stroke: red;
+      stroke-width: 1px;
+      animation:boxing 5s ease-in-out;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 250;
+      padding: 20px;}
+       @keyframes boxing{
+            0%{
+                stroke-dashoffset: 250;
+            
+            }
+            100%{
+                stroke-dashoffset: 0;
+            
+            }
+        }   
+
+
+.tennis{
+    fill-opacity: 0;
+      stroke: green;
+      stroke-width: 1px;
+      animation: tennis 5s ease-in-out;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 250;
+      padding: 20px;}
+       @keyframes tennis{
+            0%{
+                stroke-dashoffset:250;
+            
+            }
+            100%{
+                stroke-dashoffset: 0;
+            
+            }
+        }
+.well{
+    color: #fff;
+    font-size: 110px;
+    font-family: Courier New;
+    animation: well 5s ease-in-out;  
+    border-box: 2px;
+    padding: 80px;  
+    border: black solid 6px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+@keyframes well{
+    0%{
+        opacity: 0;
+    }
+     100%{
+        opacity: 1;
+    }
+}
+footer{
+    background-color: gray;
+    position: absolute;
+    bottom: 0px;
+    height: 400px;
+    left: 0px;
+    width: 100%;
+}
+.copyright {
+    font-size: 200px;
+    position: absolute;
+    bottom: 140px;    
+    left: 0px;
+    color: white;
+    padding: 20px; 
+}
+a{
+    text-decoration: underline;  
+    text-decoration-color: white; 
+    font-size: 50px;
+    list-style:none;
+    color: #b9ff00;   
+}
+a:hover{
+    color: white;
+}
+a:active{
+    text-decoration: none;
+    background-color: none;
+}
+.links{
+    padding: 2px;
+    left: 30px;
+    bottom: 60px;
+    position: absolute;
+    list-style: none;         
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    bottom: 100px;
+    left: 170px;
+}
+.words{
+    position: absolute;
+    right: 50px;
+    top: 1350px;
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: Courier New;
+    width: 50%;
+}
+.foot{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 17px;
+    color: #6aa2ff;
+    font-family: Courier New;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}

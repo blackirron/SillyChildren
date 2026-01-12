@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sellproducts</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+		body{
+    background: cornflowerblue;
+    width: 100%;
+}
+.logo{
+    width: auto;
+    height: 100px;
+    position: absolute;
+    left: 90px;
+    top: 0px;
+}
+.ham1{
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+    width: 58px;
+    height: 100px;    
+}
+.bars .bar{
+    height: 18px;
+    width: 58px;
+    background: white;
+    margin: 3px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+    
+}
+.bars:hover .up{
+    transform: rotate(45deg);
+}
+.bars:hover .mid{
+    opacity: 0;
+}
+.bars:hover .down{
+    transform: rotate(-45deg);
+}
+.headings{
+    margin: auto;
+    top: 130px;
+    left: 30px;
+    position: absolute;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    background: transparent;
+    animation: colour 1s infinite;
+    border-radius: 20px;
+}
+@keyframes colour {
+    0%{
+        border: 3px solid #fff4aa;
+    }
+    25%{
+        border: 3px solid #ffa995;
+    }
+    50%{
+        border: 3px solid #eabfff;
+    }
+    75%{
+        border: 3px solid #aacaff;
+    }
+    100%{
+        border: 3px solid #fff4aa;
+    }
+}
+.h1a{
+    background: -webkit-linear-gradient(#80eaff,#cfff80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Monospace;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.h1b{
+    margin-top: 0px;
+    background: -webkit-linear-gradient(#80eaff,#cfff80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Monospace;
+    font-size: 30px;
+}
+.h2a{
+    font-size: 25px;
+    font-family: Cursive;
+        background: -webkit-linear-gradient(#eeff95,#d5ffdf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.h2b{
+    font-size: 25px;
+    font-family: Cursive;
+        background: -webkit-linear-gradient(#eeff95,#d5ffdf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cates{
+    width: 100%;
+    height: 254px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+}
+.budget{
+    width: 75%;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    height: 246px;
+}
+.authentic{
+    width: 75%;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    height: 246px;
+
+}
+.budgetp{
+    height: 246px;
+    width: auto;
+    margin: auto; 
+           
+}
+.authenticp{
+   width: 275px;
+   margin: auto;
+   height: 246px;
+}
+.buh{
+    position: absolute;
+    font-size: 20px;
+    top: 40px;
+    left: 40px;
+}
+.auh{
+    position: relative;
+    z-index: 1;    
+    font-size: 20px;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    margin-top: -65px;
+    
+}
+.bub{
+    position: absolute;    
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 75%;
+    background-color: transparent;
+    align-items: center;
+    z-index: 1;
+    border: none;
+}
+.aub{
+    position: absolute;
+    top: 0px;
+    width: 73%;
+    height: 100% ;
+    left: 75%;
+    align-items: center;
+    z-index: 1;
+    border: none;
+    background-color: transparent;
+}
+	</style>
+    <!-- 
+    this software is for online selling and buying of old, second hand products.  
+     -->
+</head>
+<body>
+    <div><img class="logo" src="https://i.postimg.cc/mgrxgvvt/IMG-20230608-130546-removebg-preview.png" alt="logo"></div>
+    <div class="ham1"><div class="bars">
+               <div class="bar up"></div>
+                <div class="bar mid"></div>
+                <div class="bar down"></div>
+            </div></div>
+    <div class="headings"><h1 class="h1a">SELL YOUR </h1><h1 class="h1b">PRODUCTS HERE</h1>
+    <h1 class="h2a">AND GROW WITH</h1> 
+    <h1 class="h2b">5X SPEED</h1></div>
+    <div class="cates">
+        <div class="budget">
+            <img class="budgetp" src="https://i.postimg.cc/6qkZRwJh/IMG-20240516-155537-1.jpg" alt="budp">
+            <button class="bub" onclick="window.location.href='https://seller.flipkart.com/index.html?gad_source=1&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8q_gunlUc0QVtKWdVNQxiVkmBKLct15QsINtQuRZLDSXwXMTlCNKJ4aArEsEALw_wcB#signUp/accountCreation/new?utm_source=google&utm_medium=how%20do%20you%20sell%20your%20product&utm_campaign=Essence_Generic_Search_Exact_GST_tCPA_6-July-23'"></button>
+            <h1 class="buh"> BUDGET SECTION</h1>
+        </div>
+        <div class="authentic">            
+            <img src="https://i.postimg.cc/6q2RyqS3/images.jpg" alt="authp" class="authenticp">
+            <button class="aub" onclick="window.location.href='https://seller.flipkart.com/index.html?gad_source=1&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8q_gunlUc0QVtKWdVNQxiVkmBKLct15QsINtQuRZLDSXwXMTlCNKJ4aArEsEALw_wcB#signUp/accountCreation/new?utm_source=google&utm_medium=how%20do%20you%20sell%20your%20product&utm_campaign=Essence_Generic_Search_Exact_GST_tCPA_6-July-23'"></button>
+            <h1 class="auh">AUTHENTIC SECTION</h1>
+        </div>
+    </div>
+</body>
+</html>
