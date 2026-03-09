@@ -17,4 +17,4 @@
 
 ---
 ### 📬 Contact the Developer
-https://github.com/blackirron | samir4u76 | samir076.w3spaces.com/indexpage.html
+https://github.com/blackirron | samir4u76 | https://samir076.w3spaces.com/indexpage.html
