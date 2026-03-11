@@ -7,7 +7,7 @@
 | Item | Type | Power Level |
 | :--- | :--- | :--- |
 | First IDE | Notepad / IDLE | ⭐️ |
-| First Language | HTML5 | ⭐️⭐️ |
+| First Language | HTML5 CSS3 | ⭐️⭐️ |
 | Debugging Skills | "Delete and Start Over" | ⭐️⭐️⭐️⭐️⭐️ |
 
 ### 🚩 Quest Log
